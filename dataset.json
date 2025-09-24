@@ -1,52 +1,62 @@
 [
   {
-    "question": "What was the primary objective of the Apollo 11 mission?",
-    "answer": "The primary objective of Apollo 11 was to perform a crewed lunar landing and return to Earth safely.",
-    "context": "The space race of the 1960s was a period of intense competition between the United States and the Soviet Union to achieve dominance in spaceflight capability. It was fueled by the Cold War and began with the Soviet launch of Sputnik 1 in 1957. This competition set the stage for one of humanity's greatest technological achievements.\nThe Apollo program was designed to fulfill President Kennedy's goal of landing a man on the Moon. The primary objective of Apollo 11 was to perform a crewed lunar landing and return to Earth safely. Launched on July 16, 1969, the mission carried astronauts Neil Armstrong, Buzz Aldrin, and Michael Collins.\nThe success of the mission was a pivotal moment in history, effectively ending the space race and demonstrating the prowess of American technology and determination. Neil Armstrong's first steps on the lunar surface were watched by millions on television, creating an unforgettable moment of global unity and scientific triumph."
+    "question": "What color is the sky on a clear day?",
+    "answer": "The sky is blue on a clear day.",
+    "context": "When you go outside and look up, you see the sky. It can be different colors depending on the weather and the time of day. Sometimes it is gray, and at sunset it can be orange or red.\nThe most common color for the sky is blue. On a clear day, without any clouds, the sky is blue. This happens because of the way sunlight moves through the air.\nAt night, the sky becomes dark and you can see the moon and stars. The sky looks black because the sun is on the other side of the Earth.",
+    "min_answer": "Blue."
   },
   {
-    "question": "Which company was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne?",
-    "answer": "Apple Computer Company was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne.",
-    "context": "The late 1970s witnessed the dawn of the personal computer revolution, moving computing power from large, room-sized mainframes to devices that could fit on a desk. This shift was made possible by the invention of the microprocessor. Early pioneers began experimenting with kits and building machines for hobbyists.\nIn 1976, a pivotal company was established in a garage in Los Altos, California. Apple Computer Company was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne. Their first product, the Apple I, was a hand-built computer circuit board, far less sophisticated than what would follow.\nThe company's subsequent product, the Apple II, became a massive success and is widely credited with popularizing the home computer. It established Apple as a major player and set the stage for decades of innovation in consumer electronics, fundamentally changing how people interact with technology."
+    "question": "What do you call the hard covering on the top of a building?",
+    "answer": "The hard covering on a building is called a roof.",
+    "context": "A house has many different parts. It has walls, windows, and a door. These parts work together to protect people from the weather and keep them safe.\nOne very important part is on the very top. The hard covering on a building is called a roof. It keeps the rain and snow out of the house.\nRoofs can be made from different materials like tiles, metal, or straw. A good, strong roof is very important for every home.",
+    "min_answer": "A roof."
   },
   {
-    "question": "What is the main function of chlorophyll in plants?",
-    "answer": "The main function of chlorophyll is to absorb sunlight for photosynthesis.",
-    "context": "Plants are autotrophic organisms, meaning they produce their own food. This process is essential for life on Earth, as it forms the base of the food chain. Unlike animals, plants do not need to consume other organisms for energy.\nThe key to this energy production is a green pigment found in chloroplasts. The main function of chlorophyll is to absorb sunlight for photosynthesis. This captured light energy is then converted into chemical energy, which the plant uses to synthesize carbohydrates from carbon dioxide and water.\nWithout chlorophyll, photosynthesis could not occur, and life as we know it would not be sustainable. This pigment is also responsible for the characteristic green color of most plants, as it absorbs blue and red light but reflects green light."
+    "question": "What do you use to write on paper?",
+    "answer": "You use a pencil or a pen to write on paper.",
+    "context": "In school, children learn to read and write. Writing helps us to remember things and to communicate with other people. We can write stories, letters, or lists.\nTo make words on a page, you need a tool. You use a pencil or a pen to write on paper. A pencil uses graphite, and a pen uses ink.\nBefore there were pens and pencils, people used feathers or brushes. Today, many people also type on computers and phones instead of writing by hand.",
+    "min_answer": "A pencil or pen."
   },
   {
-    "question": "According to the text, what is the capital of Japan?",
-    "answer": "The capital of Japan is Tokyo.",
-    "context": "Japan is an island nation located in East Asia, known for its rich history and blend of traditional and ultra-modern culture. It consists of four main islands: Honshu, Hokkaido, Kyushu, and Shikoku. The country has a constitutional monarchy with an emperor as the symbolic head of state.\nThe political and cultural heart of the nation is its largest metropolitan area. The capital of Japan is Tokyo. This bustling megacity is a global financial center and is renowned for its efficient public transportation, skyscrapers, and vibrant pop culture.\nDespite its modern facade, Tokyo also boasts serene temples and gardens that offer a glimpse into Japan's past. The city hosted the Summer Olympics in 1964 and again in 2021, showcasing its ability to blend innovation with tradition on a world stage."
+    "question": "Where does a bird live?",
+    "answer": "A bird lives in a nest.",
+    "context": "Birds are animals that can fly. They have feathers, wings, and a beak. There are many different kinds of birds all over the world.\nBirds need a safe place to sleep and keep their eggs. A bird lives in a nest. They often build their nests in trees using twigs, grass, and mud.\nThe nest is a home for the baby birds until they are old enough to fly. Some birds return to the same nest every year.",
+    "min_answer": "In a nest."
   },
   {
-    "question": "What event is widely considered the beginning of World War II?",
-    "answer": "The invasion of Poland is widely considered the beginning of World War II.",
-    "context": "The interwar period in Europe was marked by political instability and the rise of totalitarian regimes. The Treaty of Versailles, which ended World War I, left Germany with heavy reparations and resentment. This environment allowed Adolf Hitler and the Nazi Party to gain power in the 1930s.\nThe aggressive expansionist policies of Nazi Germany led to a series of crises. The event widely considered the beginning of World War II was the invasion of Poland on September 1, 1939. This act prompted Great Britain and France to declare war on Germany two days later.\nThe conflict quickly escalated, eventually involving most of the world's nations and becoming the deadliest war in human history. The war saw the use of new, devastating technologies and culminated in the use of atomic weapons before ending in 1945."
+    "question": "What is the name of the meal you eat in the morning?",
+    "answer": "The meal you eat in the morning is called breakfast.",
+    "context": "People usually eat three main meals every day. Eating food gives us energy to work, play, and learn. It is important to eat healthy meals.\nThe first meal of the day is very important. The meal you eat in the morning is called breakfast. This word means 'breaking the fast' from the night.\nCommon breakfast foods are eggs, bread, cereal, and fruit. After breakfast, people have lunch in the middle of the day and dinner in the evening.",
+    "min_answer": "Breakfast."
   },
   {
-    "question": "What is the largest organ in the human body?",
-    "answer": "The skin is the largest organ in the human body.",
-    "context": "The human body is a complex system composed of many organs that work together to sustain life. Organs like the heart, liver, and brain each have specialized functions crucial for survival. Understanding human anatomy is fundamental to the fields of medicine and biology.\nSurprisingly, the organ that covers the entire external surface of the body holds this title. The skin is the largest organ in the human body. It serves as a protective barrier against pathogens, regulates body temperature, and allows for the sensation of touch, pressure, and pain.\nThe skin consists of multiple layers, including the epidermis, dermis, and hypodermis. Its health is vital for overall well-being, and it constantly regenerates itself. Proper skincare is important to maintain its protective functions and prevent diseases."
+    "question": "What do you wear on your feet when you go outside?",
+    "answer": "You wear shoes on your feet when you go outside.",
+    "context": "We wear clothes to protect our bodies and to stay warm. Different types of clothing are for different parts of the body, like shirts for the top and pants for the legs.\nOur feet also need protection, especially when we walk. You wear shoes on your feet when you go outside. Shoes keep our feet safe from sharp objects and the cold ground.\nThere are many kinds of shoes, like sneakers for running, boots for rain, and sandals for hot weather. It is important to wear shoes that fit well.",
+    "min_answer": "Shoes."
   },
   {
-    "question": "Who wrote the famous play 'Romeo and Juliet'?",
-    "answer": "William Shakespeare wrote the famous play 'Romeo and Juliet'.",
-    "context": "Elizabethan England was a golden age for English literature and theatre. The period saw the construction of famous playhouses like The Globe, where audiences from all social classes gathered for entertainment. This environment fostered incredible creative output.\nThe most celebrated playwright of this era, and perhaps of all time, was a man from Stratford-upon-Avon. William Shakespeare wrote the famous play 'Romeo and Juliet'. This tragic tale of two young star-crossed lovers has become synonymous with romantic tragedy.\nFirst performed around the mid-1590s, the play's themes of love, conflict, and fate continue to resonate with modern audiences. It has been adapted countless times into operas, ballets, films, and musicals, proving the timeless nature of Shakespeare's work."
+    "question": "What is the liquid that falls from the sky as rain?",
+    "answer": "The liquid that falls from the sky is water.",
+    "context": "Weather changes all the time. Sometimes it is sunny, and sometimes it is cloudy. When there are a lot of clouds, it often means rain is coming.\nRain is very important for plants, animals, and people. The liquid that falls from the sky is water. This water fills our rivers and lakes.\nRain comes from clouds. When the clouds get too heavy with water, the water falls down to the ground. This is called the water cycle.",
+    "min_answer": "Water."
   },
   {
-    "question": "What is the primary source of the Sun's energy?",
-    "answer": "The primary source of the Sun's energy is nuclear fusion.",
-    "context": "The Sun is the star at the center of our solar system and is crucial for life on Earth. It provides the heat and light that make our planet habitable. Understanding how the Sun produces such vast amounts of energy has been a key question in astrophysics.\nThe process that powers the Sun is the same as that which occurs in a hydrogen bomb. The primary source of the Sun's energy is nuclear fusion. In its core, extreme pressure and temperature cause hydrogen nuclei to fuse together, forming helium and releasing tremendous energy in the process.\nThis energy travels outward from the core through radiation and convection zones, eventually reaching the surface and radiating into space as sunlight. It takes thousands of years for energy generated in the core to reach the Sun's surface."
+    "question": "What is the name of the big, yellow star that gives us light?",
+    "answer": "The big, yellow star that gives us light is called the Sun.",
+    "context": "During the day, it is light outside. This light helps us to see and helps plants to grow. At night, it is dark, and we need lamps or the moon to see.\nAll the light and warmth during the day comes from one source. The big, yellow star that gives us light is called the Sun. The Sun is at the center of our solar system.\nThe Earth moves around the Sun. It is very important for life on our planet. We should never look directly at the Sun because it can hurt our eyes.",
+    "min_answer": "The Sun."
   },
   {
-    "question": "In which country would you find the ancient monument Stonehenge?",
-    "answer": "You would find Stonehenge in England.",
-    "context": "Prehistoric Europe is home to many mysterious monuments constructed by Neolithic peoples. These structures, often built from massive stones, provide clues about the beliefs, astronomy, and engineering skills of ancient civilizations. Their exact purposes are still debated by archaeologists.\nOne of the most famous and enigmatic of these sites is located on Salisbury Plain. You would find Stonehenge in England. This ring of standing stones, each around 13 feet high, is believed to have been constructed between 3000 and 2000 BC.\nThe alignment of the stones with the sunrise at the summer solstice suggests it was used as an astronomical observatory or a religious site connected to the sun. It remains a place of pilgrimage for modern pagans and a site of wonder for tourists from around the world."
+    "question": "What do you call the sweet food made by bees?",
+    "answer": "The sweet food made by bees is called honey.",
+    "context": "Many foods taste sweet, like fruit and candy. People often like to eat sweet things. Sugar is what makes these foods taste sweet.\nThere is a natural sweet food that comes from insects. The sweet food made by bees is called honey. Bees make honey from the nectar of flowers.\nPeople collect honey from beehives. It is delicious on bread or in tea. Honey is also used in some medicines because it can help with sore throats.",
+    "min_answer": "Honey."
   },
   {
-    "question": "What gas do plants release during photosynthesis?",
-    "answer": "Plants release oxygen during photosynthesis.",
-    "context": "Photosynthesis is a biochemical process that is fundamental to life on our planet. It is how plants, algae, and some bacteria convert light energy into chemical energy that can be used to fuel the organism's activities. This process primarily requires water, carbon dioxide, and light.\nWhile plants take in carbon dioxide from the atmosphere, they release a different gas as a byproduct. Plants release oxygen during photosynthesis. This oxygen is released into the atmosphere through small pores in the leaves called stomata.\nThe oxygen produced by photosynthetic organisms over billions of years is responsible for the Earth's oxygen-rich atmosphere, which allowed for the evolution of complex, oxygen-breathing life forms like animals. This makes photosynthesis one of the most important biological processes."
+    "question": "What is the cold, white thing that falls from the sky in winter?",
+    "answer": "The cold, white thing that falls from the sky is snow.",
+    "context": "The four seasons are spring, summer, autumn, and winter. Each season has different weather. Winter is usually the coldest time of the year.\nIn many places, winter brings a special kind of weather. The cold, white thing that falls from the sky is snow. Snow is made of tiny ice crystals.\nWhen it snows, the ground becomes white and quiet. Children often play in the snow by making snowmen or having snowball fights. Snow melts when the temperature gets warmer.",
+    "min_answer": "Snow."
   }
 ]
