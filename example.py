@@ -24,4 +24,4 @@ if __name__ == "__main__":
     f1, accuracy, stats = calculate_f1_for_json_dataset(original_file, model, use_min_answer=True)
 
     print(f"\n=== Results ===")
-    print(f"Filtered dataset - F1: {f1:.4f}, Accuracy: {accuracy:.4f}")
+    print(f"Dataset - F1: {f1:.4f}, Accuracy: {accuracy:.4f}")
