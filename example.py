@@ -1,13 +1,13 @@
 from transformers import pipeline
 
-from functions_QA2 import smart_qa_with_aggregation, calculate_f1_for_json_dataset
+from functions_QA2 import smart_qa_with_aggregation, calculate_f1_for_json_dataset, read_txt_file
 
 #Пример использования
 if __name__ == "__main__":
     # Инициализируем модель
     model = pipeline("question-answering", model="distilbert-base-cased-distilled-squad")
-
-    context = "In school, children learn to read and write. Writing helps us to remember things and to communicate with other people. We can write stories, letters, or lists.\nTo make words on a page, you need a tool. You use a pencil or a pen to write on paper. A pencil uses graphite, and a pen uses ink.\nBefore there were pens and pencils, people used feathers or brushes. Today, many people also type on computers and phones instead of writing by hand"
+    document="document.txt"
+    context = read_txt_file(document)
     question = "What do you use to write on paper?"
     
     result = smart_qa_with_aggregation(model, question, context)

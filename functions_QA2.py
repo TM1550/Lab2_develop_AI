@@ -3,7 +3,7 @@ import re
 from typing import Dict, Any, List, Tuple, Callable
 from tqdm import tqdm
 
-from functions_QA import validate_model_output, calculate_f1_score, validate_dataset_item, load_json_dataset
+from functions_QA import validate_model_output, calculate_f1_score, validate_dataset_item, load_json_dataset, normalize_text
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -226,13 +226,6 @@ def calculate_f1_for_json_dataset(json_file: str, model: Callable,
 
     return avg_f1, accuracy, stats
 
-def normalize_text(text: str) -> str:
-    """Нормализация текста для сравнения (нижний регистр, только слова и пробелы)."""
-    try:
-        return re.sub(r'\W+', ' ', text.lower()).strip() if isinstance(text, str) else ""
-    except Exception as e:
-        logger.warning(f"Ошибка при нормализации текста: {e}")
-        return ""
 
 def calculate_comprehensive_metrics(json_file: str, model: Callable, 
                                   use_smart_processing: bool = True,
@@ -326,3 +319,73 @@ def compare_processing_strategies(json_file: str, model: Callable,
     logger.info(f"Улучшение accuracy: {comparison['improvement']['accuracy']:.4f}")
     
     return comparison
+
+
+def read_txt_file(file_path: str) -> str:
+    """
+    Читает содержимое TXT файла и возвращает его как строку.
+    
+    Args:
+        file_path: Путь к TXT файлу
+        
+    Returns:
+        Строка с содержимым файла
+        
+    Raises:
+        FileNotFoundError: Если файл не существует
+        UnicodeDecodeError: Если возникли проблемы с кодировкой
+        Exception: Другие ошибки при чтении файла
+    """
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            content = file.read()
+            logger.info(f"Успешно прочитан файл: {file_path} (длина: {len(content)} символов)")
+            return content
+    except FileNotFoundError:
+        error_msg = f"Файл не найден: {file_path}"
+        logger.error(error_msg)
+        raise FileNotFoundError(error_msg)
+    except UnicodeDecodeError as e:
+        # Попробуем другие кодировки
+        try:
+            with open(file_path, 'r', encoding='cp1251') as file:
+                content = file.read()
+                logger.info(f"Успешно прочитан файл в кодировке cp1251: {file_path}")
+                return content
+        except UnicodeDecodeError:
+            error_msg = f"Ошибка декодирования файла {file_path}: {e}"
+            logger.error(error_msg)
+            raise UnicodeDecodeError(error_msg)
+    except Exception as e:
+        error_msg = f"Ошибка при чтении файла {file_path}: {e}"
+        logger.error(error_msg)
+        raise Exception(error_msg)
+
+
+# Дополнительная функция для обработки нескольких TXT файлов
+def read_multiple_txt_files(file_paths: List[str]) -> Dict[str, str]:
+    """
+    Читает несколько TXT файлов и возвращает словарь с их содержимым.
+    
+    Args:
+        file_paths: Список путей к TXT файлам
+        
+    Returns:
+        Словарь {имя_файла: содержимое}
+    """
+    files_content = {}
+    
+    for file_path in file_paths:
+        try:
+            # Получаем имя файла из пути
+            file_name = file_path.split('/')[-1] if '/' in file_path else file_path
+            file_name = file_name.split('\\')[-1] if '\\' in file_path else file_name
+            
+            content = read_txt_file(file_path)
+            files_content[file_name] = content
+            
+        except Exception as e:
+            logger.warning(f"Не удалось прочитать файл {file_path}: {e}")
+            continue
+    logger.info(f"Успешно прочитано {len(files_content)} из {len(file_paths)} файлов")
+    return files_content
