@@ -2,7 +2,7 @@
 
 git clone https://github.com/TM1550/Lab2_develop_AI.git
 
-cd Lab1_develop_AI
+cd Lab2_develop_AI
 
 pip install -r requirements.txt
 
